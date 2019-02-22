@@ -1,6 +1,8 @@
 gdjs.waitingCode = {};
 gdjs.waitingCode.GDsilverObjects1= [];
 gdjs.waitingCode.GDsilverObjects2= [];
+gdjs.waitingCode.GDNewObjectObjects1= [];
+gdjs.waitingCode.GDNewObjectObjects2= [];
 
 gdjs.waitingCode.conditionTrue_0 = {val:false};
 gdjs.waitingCode.condition0IsTrue_0 = {val:false};
@@ -29,6 +31,8 @@ gdjs.waitingCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.waitingCode.GDsilverObjects1.length = 0;
 gdjs.waitingCode.GDsilverObjects2.length = 0;
+gdjs.waitingCode.GDNewObjectObjects1.length = 0;
+gdjs.waitingCode.GDNewObjectObjects2.length = 0;
 
 gdjs.waitingCode.eventsList0xb1208(runtimeScene);
 return;
